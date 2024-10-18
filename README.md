@@ -2,6 +2,8 @@
 Puedes ver [mis notas](/mis-notas.md).
 ![Cuando sale sliksong](1247213.jpg)
 
+Esto lo hago con nano 
+
 ## Sección.
 Una lista:
 - hola.
