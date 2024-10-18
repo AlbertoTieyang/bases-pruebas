@@ -1,4 +1,5 @@
 # bases-pruebas
+Puedes ver [mis notas](/mis-notas.md).
 ![Cuando sale sliksong](1247213.jpg)
 
 ## Sección.
