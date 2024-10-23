@@ -12,4 +12,4 @@ create table ejercicio1(
   fechaExacta datetime,
   hora time
 );
-insert into ejercicio1 values ('hola', 'Buenos dias', 12, 12.005, 123.45, '2024-10-21', '2024-10-21 12:00:00', '12:00:00');
+insert into ejercicio1 values ('hopa', 'Buenos dias', 12, 12.005, 123.45, '2024-10-21', '2024-10-21 12:00:00', '12:00:00');
