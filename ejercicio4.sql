@@ -37,7 +37,7 @@ create table Destinos(
     descripcion varchar(255)
 );
 
-create table paquetes(
+create table Paquetes(
     id int primary key,
     nombre varchar(255),
     precio int,
