@@ -2,7 +2,7 @@ drop database if exists ejercicio4;
 create database ejercicio4;
 use ejercicio4;
 
-create table clientes(
+create table Clientes(
     id int primary key,
     nombre varchar(255),
     correo_electronio varchar(255) unique key,
@@ -11,7 +11,7 @@ create table clientes(
 );
 
 
-create table reservas(
+create table Reservas(
     id int primary key,
     fk_cliente_id int,
     fk_paquetes_id int,
@@ -20,7 +20,7 @@ create table reservas(
     foreign key (fk_cliente_id) references clientes(id)
 );
 
-create table pagos(
+create table Pagos(
     id int primary key,
     fk_reserva_id int,
     fecha_pago datetime,
@@ -30,7 +30,7 @@ create table pagos(
     foreign key (fk_reserva_id) references reservas(id)
 );
 
-create table destinos(
+create table Destinos(
     id int primary key,
     nombre varchar(255),
     pais varchar(255),

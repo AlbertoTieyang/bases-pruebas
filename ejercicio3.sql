@@ -2,7 +2,7 @@ drop database if exists ejercicio3;
 create database ejercicio3;
 use ejercicio3;
 
-create table ejercicio3(
+create table Ejercicio3(
   clave1 int,
   clave2 int,
   indice varchar(255),

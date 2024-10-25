@@ -2,7 +2,7 @@ drop database if exists ejercicio1;
 create database ejercicio1;
 use ejercicio1;
 
-create table ejercicio1(
+create table Ejercicio1(
   palabra char(4),
   frase varchar(255),
   entero int, 

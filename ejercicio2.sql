@@ -2,7 +2,7 @@ drop database if exists ejercicio2;
 create database ejercicio2;
 use ejercicio2;
 
-create table ejercicio2(
+create table Ejercicio2(
   clave_primaria int primary key auto_increment,
   fecha date check (fecha > '2010-12-31')
 );
