@@ -17,7 +17,7 @@ create table Reservas(
     fk_paquetes_id int,
     fecha_reserva datetime check(fecha_reserva<'2030-01-01 00:00:00'),
     estado varchar(255),
-    foreign key (fk_cliente_id) references clientes(id)
+    foreign key (fk_cliente_id) references Clientes(id)
 );
 
 create table Pagos(
@@ -27,7 +27,7 @@ create table Pagos(
     monto int,
     metodo_pago varchar(255),
     estado varchar(255),
-    foreign key (fk_reserva_id) references reservas(id)
+    foreign key (fk_reserva_id) references Reservas(id)
 );
 
 create table Destinos(
@@ -43,5 +43,5 @@ create table paquetes(
     precio int,
     duracion_dias int check (1<duracion_dias<30),
     fk_destino_id int,
-    foreign key (fk_destino_id) references destinos(id)
+    foreign key (fk_destino_id) references Destinos(id)
 );
