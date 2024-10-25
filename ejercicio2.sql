@@ -9,5 +9,3 @@ create table ejercicio2(
 
 insert into ejercicio2(fecha) values ('2024-12-02');
 insert into ejercicio2 values (3, '2024-10-22');
-
-select * from ejercicio2;

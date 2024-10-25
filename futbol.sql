@@ -20,7 +20,7 @@ create table jugador(
 insert into equipo values (1, 'real madrid', 'madrid');
 insert into equipo values (2, 'futbol club barcelona', 'barcelona');
 
-insert into jugador values (11, 'Messi', 'Argentino', 10, 1.69, 1);
-insert into jugador values (12, 'Iniesta', 'Español', 8, 1.71, 1);
-insert into jugador values (13, 'Sergio Ramos', 'Español', 4, 1.84, 2);
-insert into jugador values (14, 'Cristiano Ronaldo', 7, 1.87,2);
+insert into jugador values ('11', 'Messi', 'Argentino', 10, 1.69, 2);
+insert into jugador values ('12', 'Iniesta', 'Español', 8, 1.71, 2);
+insert into jugador values ('13', 'Sergio Ramos', 'Español', 4, 1.84, 1);
+insert into jugador values ('14', 'Cristiano Ronaldo','Portugués', 7, 1.87, 1);
