@@ -46,7 +46,7 @@ alter table Conciertos modify id int AUTO_INCREMENT;
 alter table Tickets change fecha fecha_compra date;
 
 -- Ejercicio6:
-alter table Tickets add constraint fk_cliente foreign key (cliente_id) references Clientes(id) on delete set null;
+alter table Tickets modify cliente_id int null unique key, add constraint fk_cliente foreign key (cliente_id) references Clientes(id) on delete set null;
 
 -- Ejercicio7: 
 alter table Tickets add constraint fk_concierto foreign key (concierto_id) references Conciertos(id) on delete cascade;
